@@ -1,1 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub App Registration Guide - BoogyTheUgli35t</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #58a6ff;
+            border-bottom: 2px solid #21262d;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #58a6ff;
+            margin-top: 30px;
+        }
+        .field {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 16px;
+            margin: 16px 0;
+        }
+        .field-name {
+            font-weight: bold;
+            color: #58a6ff;
+            margin-bottom: 8px;
+        }
+        .field-value {
+            background-color: #0d1117;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            margin: 8px 0;
+            color: #8b949e;
+        }
+        .copy-btn {
+            background-color: #238636;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+        .copy-btn:hover {
+            background-color: #2ea043;
+        }
+        .note {
+            background-color: #1f2937;
+            border-left: 4px solid #58a6ff;
+            padding: 12px;
+            margin: 12px 0;
+            border-radius: 4px;
+        }
+        .link {
+            display: inline-block;
+            background-color: #238636;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        .link:hover {
+            background-color: #2ea043;
+        }
+        .required {
+            color: #f85149;
+        }
+        .optional {
+            color: #8b949e;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>GitHub App Registration Guide</h1>
+    <p>Follow this guide to register your GitHub App named <strong>BoogyTheUgli35t</strong>.</p>
+    
+    <a href="https://github.com/settings/apps/new" class="link" target="_blank">
+        Open GitHub App Registration Form →
+    </a>
 
+    <h2>Required Fields</h2>
+
+    <div class="field">
+        <div class="field-name">GitHub App name <span class="required">*</span></div>
+        <div class="field-value" id="app-name">BoogyTheUgli35t</div>
+        <button class="copy-btn" onclick="copyToClipboard('app-name')">Copy</button>
+        <div class="note">This is the display name for your GitHub App.</div>
+    </div>
+
+    <div class="field">
+        <div class="field-name">Homepage URL <span class="required">*</span></div>
+        <div class="field-value" id="homepage">https://BoogyTheUgli35t.github.io</div>
+        <button class="copy-btn" onclick="copyToClipboard('homepage')">Copy</button>
+        <div class="note">Using your GitHub Pages URL as the homepage since you don't have a domain yet.</div>
+    </div>
+
+    <h2>Optional Fields</h2>
+
+    <div class="field">
+        <div class="field-name">Description <span class="optional">(optional)</span></div>
+        <div class="field-value" id="description">BoogyTheUgli35t's GitHub App for API integration and automation</div>
+        <button class="copy-btn" onclick="copyToClipboard('description')">Copy</button>
+    </div>
+
+    <div class="field">
+        <div class="field-name">Callback URL <span class="optional">(optional)</span></div>
+        <div class="field-value" id="callback">https://BoogyTheUgli35t.github.io/callback</div>
+        <button class="copy-btn" onclick="copyToClipboard('callback')">Copy</button>
+        <div class="note">You can update this later when you have a proper callback endpoint.</div>
+    </div>
+
+    <div class="field">
+        <div class="field-name">Setup URL <span class="optional">(optional)</span></div>
+        <div class="field-value" id="setup">https://BoogyTheUgli35t.github.io</div>
+        <button class="copy-btn" onclick="copyToClipboard('setup')">Copy</button>
+        <div class="note">Leave blank or use your GitHub Pages URL.</div>
+    </div>
+
+    <div class="field">
+        <div class="field-name">Webhook URL <span class="optional">(optional)</span></div>
+        <div class="field-value" id="webhook">https://BoogyTheUgli35t.github.io/webhook</div>
+        <button class="copy-btn" onclick="copyToClipboard('webhook')">Copy</button>
+        <div class="note">You can configure this later when you set up webhook handling. Leave blank for now if you don't need webhooks immediately.</div>
+    </div>
+
+    <h2>Permissions</h2>
+    <div class="note">
+        <strong>Repository permissions:</strong> Choose based on your needs. Start with "Read-only" for most permissions and grant more as needed.
+        <ul>
+            <li><strong>Contents:</strong> Read & write (if you want to modify repository files)</li>
+            <li><strong>Issues:</strong> Read & write (if you want to manage issues)</li>
+            <li><strong>Pull requests:</strong> Read & write (if you want to manage PRs)</li>
+            <li><strong>Metadata:</strong> Read-only (always required)</li>
+        </ul>
+    </div>
+
+    <h2>Where can this GitHub App be installed?</h2>
+    <div class="note">
+        <ul>
+            <li><strong>Only on this account:</strong> Recommended for personal apps</li>
+            <li><strong>Any account:</strong> If you want others to install your app</li>
+        </ul>
+    </div>
+
+    <h2>After Registration</h2>
+    <div class="note">
+        After creating your GitHub App, you'll receive:
+        <ul>
+            <li><strong>App ID:</strong> Your app's unique identifier</li>
+            <li><strong>Client ID:</strong> For OAuth authentication</li>
+            <li><strong>Client Secret:</strong> Keep this secure!</li>
+            <li><strong>Private Key:</strong> Generate and download this for API authentication</li>
+        </ul>
+    </div>
+
+    <script>
+        function copyToClipboard(elementId) {
+            const element = document.getElementById(elementId);
+            const text = element.textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                const button = element.nextElementSibling;
+                const originalText = button.textContent;
+                button.textContent = 'Copied!';
+                setTimeout(() => {
+                    button.textContent = originalText;
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
