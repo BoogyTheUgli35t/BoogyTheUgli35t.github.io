@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client Dashboard • Unified Innovations Group Bank</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="index.html" class="logo">
+          <div>
+            <div>Unified Innovations Group</div>
+            <span>Financial Technologies</span>
+          </div>
+        </a>
+        <button class="nav-toggle" aria-expanded="false">Menu</button>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="accounts.html">Accounts</a></li>
+            <li><a href="transfers.html">Transfers</a></li>
+            <li><a href="bill-pay.html">Bill Pay</a></li>
+            <li><a href="crypto.html">Crypto</a></li>
+            <li><a href="funding-hub.html">Funding Hub</a></li>
+            <li><a href="business.html">Business</a></li>
+            <li><a href="invest.html">Invest</a></li>
+            <li><a href="admin.html">Admin</a></li>
+          </ul>
+        </nav>
+        <div class="nav-cta">
+          <a class="button button-outline" href="login.html">Sign Out</a>
+          <a class="button button-primary" href="settings.html">Profile Settings</a>
+        </div>
+      </div>
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="badge">Client Workspace</span>
+          <h1>Welcome back, John Doe</h1>
+          <p>
+            Track liquidity, monitor crypto exposure, and launch transactions in real time. Your balances, spending
+            insights, and alerts update continuously for rapid decision-making.
+          </p>
+          <div class="nav-cta">
+            <a class="button button-primary" href="transfers.html">Start a Transfer</a>
+            <a class="button button-outline" href="crypto.html">Open Crypto Desk</a>
+          </div>
+        </div>
+        <div class="hero-metrics">
+          <div class="metric">
+            <div>
+              <strong>$12,500.75</strong>
+              <div>Available cash balance</div>
+            </div>
+            <span class="highlight">USD Checking</span>
+          </div>
+          <div class="metric">
+            <div>
+              <strong>2.35 BTC</strong>
+              <div>Digital asset exposure</div>
+            </div>
+            <span class="highlight">Crypto Wallet</span>
+          </div>
+          <div class="metric">
+            <div>
+              <strong>$48,920</strong>
+              <div>Credit utilization</div>
+            </div>
+            <span class="highlight">Rewards Platinum</span>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <div class="section">
+        <nav class="breadcrumb"><a href="index.html">Home</a> / Dashboard</nav>
+        <div class="page-hero">
+          <h1>Unified account snapshot</h1>
+          <p>
+            Stay in control of cash, credit, and crypto from a centralized workspace. Drill into transactions, manage
+            beneficiaries, or open innovation funding opportunities in seconds.
+          </p>
+        </div>
+        <div class="stat-grid">
+          <div class="stat-card">
+            <h4>Monthly cash flow</h4>
+            <strong>$28,460</strong>
+            <p>Inbound revenue and deposits</p>
+          </div>
+          <div class="stat-card">
+            <h4>Spending this week</h4>
+            <strong>$4,890</strong>
+            <p>Travel, SaaS, and vendor payouts</p>
+          </div>
+          <div class="stat-card">
+            <h4>Crypto performance</h4>
+            <strong>+12.4%</strong>
+            <p>Return across BTC, ETH, and USDC holdings</p>
+          </div>
+          <div class="stat-card">
+            <h4>Innovation funding</h4>
+            <strong>$250K</strong>
+            <p>Capital reserved for product expansion</p>
+          </div>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="section-header">
+          <h2>Recent transactions</h2>
+          <a class="button button-outline" href="accounts.html">View full history</a>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Description</th>
+              <th>Type</th>
+              <th>Amount</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Feb 18, 2024</td>
+              <td>Innovation Lab Payroll</td>
+              <td>ACH Transfer</td>
+              <td>−$8,420.00</td>
+              <td><span class="status success">Completed</span></td>
+            </tr>
+            <tr>
+              <td>Feb 17, 2024</td>
+              <td>BTC Purchase</td>
+              <td>Crypto Trade</td>
+              <td>−$2,500.00</td>
+              <td><span class="status pending">Pending</span></td>
+            </tr>
+            <tr>
+              <td>Feb 16, 2024</td>
+              <td>Angel Investment</td>
+              <td>Incoming Wire</td>
+              <td>+$50,000.00</td>
+              <td><span class="status success">Completed</span></td>
+            </tr>
+            <tr>
+              <td>Feb 14, 2024</td>
+              <td>UIG Rewards Payment</td>
+              <td>Credit Card</td>
+              <td>−$1,280.55</td>
+              <td><span class="status success">Completed</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2>Quick actions</h2>
+          <p>Launch common workflows without leaving the dashboard.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Deposit funds</h3>
+            <p>Move capital between accounts or accept incoming payments.</p>
+            <ul class="feature-list">
+              <li>Instant internal transfers</li>
+              <li>Scheduled recurring deposits</li>
+              <li>Lockbox and remote deposit</li>
+            </ul>
+            <a class="button button-primary" href="transfers.html">Open deposit flow</a>
+          </article>
+          <article class="card">
+            <h3>Launch crypto trade</h3>
+            <p>Execute BTC, ETH, or USDC trades with simulated live pricing feeds.</p>
+            <ul class="feature-list">
+              <li>One-click conversions</li>
+              <li>Portfolio risk controls</li>
+              <li>Proof-of-trade receipts</li>
+            </ul>
+            <a class="button button-primary" href="crypto.html">Enter trading desk</a>
+          </article>
+          <article class="card">
+            <h3>Open funding request</h3>
+            <p>Share innovation roadmaps, milestones, and capital asks with vetted partners.</p>
+            <ul class="feature-list">
+              <li>Investor-ready templates</li>
+              <li>Smart milestone escrow</li>
+              <li>Community token participation</li>
+            </ul>
+            <a class="button button-primary" href="funding-hub.html">Visit funding hub</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <h4>Unified Innovations Group</h4>
+          <p>Next-generation banking infrastructure for startups, creators, and forward-thinking enterprises.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="dashboard.html">Client Dashboard</a></li>
+            <li><a href="crypto.html">Crypto Center</a></li>
+            <li><a href="funding-hub.html">Funding Hub</a></li>
+            <li><a href="business.html">Business Banking</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="docs.html">API Docs</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="support.html">Support Center</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>concierge@uigbank.demo</li>
+            <li>1-800-UIG-BANK</li>
+            <li>Global response team</li>
+          </ul>
+        </div>
+      </div>
+      <div class="subfooter">© 2024 Unified Innovations Group. Demo banking experience for educational and product showcase purposes.</div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

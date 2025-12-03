@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Control Center • Unified Innovations Group Bank</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="index.html" class="logo">
+          <div>
+            <div>Unified Innovations Group</div>
+            <span>Financial Technologies</span>
+          </div>
+        </a>
+        <button class="nav-toggle" aria-expanded="false">Menu</button>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="accounts.html">Accounts</a></li>
+            <li><a href="transfers.html">Transfers</a></li>
+            <li><a href="bill-pay.html">Bill Pay</a></li>
+            <li><a href="crypto.html">Crypto</a></li>
+            <li><a href="funding-hub.html">Funding Hub</a></li>
+            <li><a href="business.html">Business</a></li>
+            <li><a href="invest.html">Invest</a></li>
+            <li><a href="admin.html">Admin</a></li>
+          </ul>
+        </nav>
+        <div class="nav-cta">
+          <a class="button button-outline" href="login.html">Switch user</a>
+          <a class="button button-primary" href="#user-oversight">Review users</a>
+        </div>
+      </div>
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="badge">Admin</span>
+          <h1>Govern the entire banking experience with precision and transparency.</h1>
+          <p>
+            Suspend accounts, adjust balances, oversee crypto activity, and monitor system uptime. UIG Admin keeps
+            compliance and operations aligned.
+          </p>
+          <div class="nav-cta">
+            <a class="button button-primary" href="#user-oversight">Open admin panels</a>
+            <a class="button button-outline" href="#system-health">Check system health</a>
+          </div>
+        </div>
+        <div class="hero-metrics">
+          <div class="metric">
+            <div>
+              <strong>4</strong>
+              <div>Active alerts requiring review</div>
+            </div>
+            <span class="highlight">Action center</span>
+          </div>
+          <div class="metric">
+            <div>
+              <strong>99.99%</strong>
+              <div>Platform uptime last 90 days</div>
+            </div>
+            <span class="highlight">Reliability</span>
+          </div>
+          <div class="metric">
+            <div>
+              <strong>12</strong>
+              <div>Pending access reviews</div>
+            </div>
+            <span class="highlight">Governance</span>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <div class="section" id="user-oversight">
+        <nav class="breadcrumb"><a href="index.html">Home</a> / Admin</nav>
+        <div class="page-hero">
+          <h1>User oversight</h1>
+          <p>Manage user states, roles, and KYC status across personal and business accounts.</p>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Role</th>
+              <th>Status</th>
+              <th>Last login</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Doe</td>
+              <td>john@uigbank.demo</td>
+              <td>User</td>
+              <td><span class="status success">Active</span></td>
+              <td>Feb 18, 2024 • 11:24 AM</td>
+            </tr>
+            <tr>
+              <td>Jane Smith</td>
+              <td>jane@uigbank.demo</td>
+              <td>User</td>
+              <td><span class="status success">Active</span></td>
+              <td>Feb 18, 2024 • 10:58 AM</td>
+            </tr>
+            <tr>
+              <td>Bob Johnson</td>
+              <td>bob@uigbank.demo</td>
+              <td>User</td>
+              <td><span class="status pending">Suspended</span></td>
+              <td>Feb 02, 2024 • 09:10 PM</td>
+            </tr>
+            <tr>
+              <td>Alex Rivera</td>
+              <td>alex@uigbank.demo</td>
+              <td>Admin</td>
+              <td><span class="status success">Active</span></td>
+              <td>Feb 18, 2024 • 08:45 AM</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <section class="section" id="system-health">
+        <div class="section-header">
+          <h2>System health</h2>
+          <p>Monitor uptime, infrastructure metrics, and security events.</p>
+        </div>
+        <div class="stat-grid">
+          <div class="stat-card">
+            <h4>API uptime</h4>
+            <strong>99.99%</strong>
+            <p>Last 90 days</p>
+          </div>
+          <div class="stat-card">
+            <h4>Average latency</h4>
+            <strong>180 ms</strong>
+            <p>Across public endpoints</p>
+          </div>
+          <div class="stat-card">
+            <h4>Security incidents</h4>
+            <strong>0</strong>
+            <p>Detected in the past 30 days</p>
+          </div>
+          <div class="stat-card">
+            <h4>Background jobs</h4>
+            <strong>256</strong>
+            <p>Running health checks &amp; reconciliations</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h2>Administrative controls</h2>
+          <p>Trigger compliance reports, manage feature flags, and view audit trails.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Compliance toolkit</h3>
+            <ul class="feature-list">
+              <li>Generate SAR drafts</li>
+              <li>Export KYC packages</li>
+              <li>Review travel rule messages</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Feature management</h3>
+            <ul class="feature-list">
+              <li>Enable crypto staking</li>
+              <li>Toggle innovation hub access</li>
+              <li>Roll out beta features</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Audit trails</h3>
+            <ul class="feature-list">
+              <li>Immutable change logs</li>
+              <li>Session replay snapshots</li>
+              <li>SIEM integrations</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <h4>Unified Innovations Group</h4>
+          <p>Next-generation banking infrastructure for startups, creators, and forward-thinking enterprises.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="dashboard.html">Client Dashboard</a></li>
+            <li><a href="crypto.html">Crypto Center</a></li>
+            <li><a href="funding-hub.html">Funding Hub</a></li>
+            <li><a href="business.html">Business Banking</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="docs.html">API Docs</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="support.html">Support Center</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>admin@uigbank.demo</li>
+            <li>1-800-UIG-BANK</li>
+            <li>Security operations center</li>
+          </ul>
+        </div>
+      </div>
+      <div class="subfooter">© 2024 Unified Innovations Group. Demo banking experience for educational and product showcase purposes.</div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

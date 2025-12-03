@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Documentation • Unified Innovations Group Bank</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="index.html" class="logo">
+          <div>
+            <div>Unified Innovations Group</div>
+            <span>Financial Technologies</span>
+          </div>
+        </a>
+        <button class="nav-toggle" aria-expanded="false">Menu</button>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="accounts.html">Accounts</a></li>
+            <li><a href="transfers.html">Transfers</a></li>
+            <li><a href="bill-pay.html">Bill Pay</a></li>
+            <li><a href="crypto.html">Crypto</a></li>
+            <li><a href="funding-hub.html">Funding Hub</a></li>
+            <li><a href="business.html">Business</a></li>
+            <li><a href="invest.html">Invest</a></li>
+            <li><a href="admin.html">Admin</a></li>
+          </ul>
+        </nav>
+        <div class="nav-cta">
+          <a class="button button-outline" href="contact.html">Get API access</a>
+        </div>
+      </div>
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="badge">Developers</span>
+          <h1>Build on UIG Bank with unified banking, payments, and crypto APIs.</h1>
+          <p>Use these sandbox endpoints to simulate authentication, transactions, and innovation workflows.</p>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <div class="section">
+        <nav class="breadcrumb"><a href="index.html">Home</a> / API Documentation</nav>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Authentication</h3>
+            <ul class="feature-list">
+              <li><code>POST /api/auth/login</code> — Authenticate sandbox users</li>
+              <li><code>POST /api/auth/register</code> — Create demo accounts</li>
+              <li><code>GET /api/auth/me</code> — Retrieve current profile</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Transactions</h3>
+            <ul class="feature-list">
+              <li><code>POST /api/transactions</code> — Submit transfers</li>
+              <li><code>GET /api/transactions</code> — List account activity</li>
+              <li><code>POST /api/crypto/trades</code> — Simulate crypto trades</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Administration</h3>
+            <ul class="feature-list">
+              <li><code>GET /api/admin/users</code> — Manage users</li>
+              <li><code>PATCH /api/admin/users/:id</code> — Update roles/status</li>
+              <li><code>GET /api/admin/stats</code> — System analytics</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="section-header">
+          <h2>SDKs &amp; tooling</h2>
+          <p>Leverage pre-built SDKs and reference apps to accelerate integration.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>JavaScript SDK</h3>
+            <ul class="feature-list">
+              <li>OAuth helper utilities</li>
+              <li>Webhooks client</li>
+              <li>TypeScript types</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Python SDK</h3>
+            <ul class="feature-list">
+              <li>Async client</li>
+              <li>Transaction builders</li>
+              <li>Admin automation scripts</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Postman collection</h3>
+            <ul class="feature-list">
+              <li>Pre-configured sandbox calls</li>
+              <li>Environment variables</li>
+              <li>Testing workflows</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <h4>Unified Innovations Group</h4>
+          <p>Next-generation banking infrastructure for startups, creators, and forward-thinking enterprises.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="dashboard.html">Client Dashboard</a></li>
+            <li><a href="crypto.html">Crypto Center</a></li>
+            <li><a href="funding-hub.html">Funding Hub</a></li>
+            <li><a href="business.html">Business Banking</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="docs.html">API Docs</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="support.html">Support Center</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>developers@uigbank.demo</li>
+            <li>1-800-UIG-BANK</li>
+            <li>Developer relations</li>
+          </ul>
+        </div>
+      </div>
+      <div class="subfooter">© 2024 Unified Innovations Group. Demo banking experience for educational and product showcase purposes.</div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
