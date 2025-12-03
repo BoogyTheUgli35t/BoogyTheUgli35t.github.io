@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transfers &amp; Payments • Unified Innovations Group Bank</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="index.html" class="logo">
+          <div>
+            <div>Unified Innovations Group</div>
+            <span>Financial Technologies</span>
+          </div>
+        </a>
+        <button class="nav-toggle" aria-expanded="false">Menu</button>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="accounts.html">Accounts</a></li>
+            <li><a href="transfers.html">Transfers</a></li>
+            <li><a href="bill-pay.html">Bill Pay</a></li>
+            <li><a href="crypto.html">Crypto</a></li>
+            <li><a href="funding-hub.html">Funding Hub</a></li>
+            <li><a href="business.html">Business</a></li>
+            <li><a href="invest.html">Invest</a></li>
+            <li><a href="admin.html">Admin</a></li>
+          </ul>
+        </nav>
+        <div class="nav-cta">
+          <a class="button button-outline" href="support.html">Transfer help</a>
+          <a class="button button-primary" href="crypto.html">Send crypto</a>
+        </div>
+      </div>
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="badge">Transfers</span>
+          <h1>Send money anywhere—across bank accounts, countries, and blockchains.</h1>
+          <p>
+            Wire funds globally, automate recurring payroll, and settle crypto payments in minutes. Compliance rules and
+            approval workflows keep every transfer secure.
+          </p>
+          <div class="nav-cta">
+            <a class="button button-primary" href="#transfer-workflows">Explore workflows</a>
+            <a class="button button-outline" href="bill-pay.html">Manage bill pay</a>
+          </div>
+        </div>
+        <div class="hero-metrics">
+          <div class="metric">
+            <div>
+              <strong>$2.4M</strong>
+              <div>Transfer volume processed this quarter</div>
+            </div>
+            <span class="highlight">Global reach</span>
+          </div>
+          <div class="metric">
+            <div>
+              <strong>&lt; 30s</strong>
+              <div>Average domestic ACH settlement</div>
+            </div>
+            <span class="highlight">Real-time rails</span>
+          </div>
+          <div class="metric">
+            <div>
+              <strong>5</strong>
+              <div>Approval tiers with policy automation</div>
+            </div>
+            <span class="highlight">Governance</span>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <div class="section" id="transfer-workflows">
+        <nav class="breadcrumb"><a href="index.html">Home</a> / Transfers</nav>
+        <div class="page-hero">
+          <h1>Transfer workflows</h1>
+          <p>
+            Select a payment rail, enter beneficiary information, and submit for approval. UIG logs every step for audit and
+            exports to your ERP automatically.
+          </p>
+        </div>
+        <div class="card-grid" data-tab-group>
+          <article class="card">
+            <span class="tag">Domestic</span>
+            <h3>ACH &amp; RTP</h3>
+            <p>Ideal for payroll, vendor bills, and recurring payments across the U.S.</p>
+            <ul class="feature-list">
+              <li>Same-day or scheduled delivery</li>
+              <li>Attach invoices and memos</li>
+              <li>Auto-reconcile with accounting</li>
+            </ul>
+            <a class="button button-primary" data-tab="ach">Start ACH</a>
+          </article>
+          <article class="card">
+            <span class="tag">International</span>
+            <h3>SWIFT &amp; cross-border wires</h3>
+            <p>Send payments in 25+ currencies with live FX quotes and compliance checks.</p>
+            <ul class="feature-list">
+              <li>Integrated sanctions screening</li>
+              <li>Beneficiary pre-validation</li>
+              <li>Transparent fee breakdowns</li>
+            </ul>
+            <a class="button button-primary" data-tab="swift">Launch SWIFT</a>
+          </article>
+          <article class="card">
+            <span class="tag">Digital Assets</span>
+            <h3>Blockchain transfers</h3>
+            <p>Move BTC, ETH, or USDC with configurable gas controls and custody policies.</p>
+            <ul class="feature-list">
+              <li>Warm &amp; cold wallet routing</li>
+              <li>Chain analysis alerts</li>
+              <li>Proof-of-transfer receipts</li>
+            </ul>
+            <a class="button button-primary" data-tab="crypto">Send crypto</a>
+          </article>
+        </div>
+      </div>
+
+      <section class="section" data-tab-panel="ach">
+        <div class="section-header">
+          <h2>ACH transfer builder</h2>
+          <p>Create one-time or recurring ACH transfers with guided validation.</p>
+        </div>
+        <div class="two-column">
+          <article class="card">
+            <h3>Transfer details</h3>
+            <ul class="feature-list">
+              <li>From: Elevate Checking • ****2211</li>
+              <li>To: Aurora Labs Payroll • ****0098</li>
+              <li>Amount: $84,200.00</li>
+              <li>Delivery: Same-day ACH</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Approvals</h3>
+            <ul class="feature-list">
+              <li>Step 1 — Finance Manager review</li>
+              <li>Step 2 — Executive approval</li>
+              <li>Step 3 — Automated posting</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" data-tab-panel="swift" style="display: none">
+        <div class="section-header">
+          <h2>International wire</h2>
+          <p>Confirm beneficiaries, FX rates, and compliance documentation.</p>
+        </div>
+        <div class="two-column">
+          <article class="card">
+            <h3>Beneficiary preview</h3>
+            <ul class="feature-list">
+              <li>Recipient: Nova Robotics GmbH</li>
+              <li>IBAN: DE89 3704 0044 0532 0130 00</li>
+              <li>FX quote: 1 USD = 0.92 EUR</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Compliance checklist</h3>
+            <ul class="feature-list">
+              <li>Sanctions screening — Cleared</li>
+              <li>Invoice documentation uploaded</li>
+              <li>Dual approval policy enforced</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" data-tab-panel="crypto" style="display: none">
+        <div class="section-header">
+          <h2>Digital asset transfer</h2>
+          <p>Configure on-chain transfers with custody-safe workflows and AML monitoring.</p>
+        </div>
+        <div class="two-column">
+          <article class="card">
+            <h3>Wallet routing</h3>
+            <ul class="feature-list">
+              <li>Asset: ETH</li>
+              <li>Amount: 15.0 ETH</li>
+              <li>Destination: Multi-sig treasury wallet</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Risk guardrails</h3>
+            <ul class="feature-list">
+              <li>Chain analysis score: Low risk</li>
+              <li>Gas strategy: Adaptive</li>
+              <li>Ledger signature required</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <h4>Unified Innovations Group</h4>
+          <p>Next-generation banking infrastructure for startups, creators, and forward-thinking enterprises.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="dashboard.html">Client Dashboard</a></li>
+            <li><a href="crypto.html">Crypto Center</a></li>
+            <li><a href="funding-hub.html">Funding Hub</a></li>
+            <li><a href="business.html">Business Banking</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="docs.html">API Docs</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="support.html">Support Center</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>payments@uigbank.demo</li>
+            <li>1-800-UIG-BANK</li>
+            <li>Dedicated wire desk</li>
+          </ul>
+        </div>
+      </div>
+      <div class="subfooter">© 2024 Unified Innovations Group. Demo banking experience for educational and product showcase purposes.</div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
